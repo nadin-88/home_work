@@ -1,7 +1,5 @@
 def task_1() -> None:
-    """
-    :return: None
-    """
+    """return: None"""
     var_int = 35
     var_float = 5.14
     var_str = "panda"
