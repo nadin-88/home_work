@@ -65,3 +65,32 @@ for button in buttons:
     print(button.text)
 for button in buttons:
     print(button.click())
+
+#4
+class Car:
+    def __init__(self):
+        self.color = None
+        self.type = None
+        self.year = None
+    def start(self):
+        print("Автомобиль заведен")
+    def stop(self):
+        print (" Автомобиль заглушен")
+    def set_year(self, year):
+        self.year = year
+        print(f'Год выпуска {year}')
+    def set_type(self,car_type):
+        self.type = car_type
+        print(f'Тип машины {car_type}')
+
+    def set_color(self, color):
+        self.color = color
+        print(f'Цвет машины {color}')
+my_car = Car()
+
+my_car.set_color('yellow')
+my_car.set_type('Mazda')
+my_car.set_year(2020)
+
+my_car.start()
+my_car.stop()
